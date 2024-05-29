@@ -116,3 +116,46 @@ header {
   color: #000000;
   text-align: center;
 }
+
+
+/* sessão de imagens */
+#section-coffes {
+  position: relative;
+  width: 1440px;
+  height: 600px;
+  margin: 0 auto 0 auto;
+}
+
+#section-coffes #section-box-imgCoffes {
+  height: 600px;
+  width: 100%;
+}
+
+#section-coffes #section-box-imgCoffes #section-imgcoffe01 {
+  width: 720px;
+  height: 600px;
+}
+
+#section-coffes #section-box-imgCoffes #section-imgcoffe02 {
+  position: relative;
+  right: 2px;
+  width: 716.2px;
+  height: 300px;
+}
+
+/* Box de imagens de café 2 */
+#sectiong-box-img-Coffes2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 720px;
+  width: 720px;
+  height: 300px;
+}
+
+#section-coffes #section-box-imgCoffes .section-imgcoffes {
+  width: 360px;
+  height: 300px;
+}
