@@ -163,3 +163,36 @@ header {
 .section-paragrafo-localization {
   font-size: 22px;
 }
+
+/* sessão de contato  */
+#section-contato {
+  background-image: url(../imagens/fundo-contato.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 750px;
+}
+
+#section-contato #section-containercontatos {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  top: 250px;
+  left: 1000px;
+}
+
+#section-contato #section-containercontatos h2 {
+  color: #fff;
+  font-size: 45px;
+}
+
+#section-contato #section-containercontatos #section-contatolist {
+  margin-top: 20px;
+  width: 400px;
+  height: 200px;
+}
+
+#section-contato #section-containercontatos #section-contatolist p {
+  font-size: 25px;
+  color: #fff;
+}
