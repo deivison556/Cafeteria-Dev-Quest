@@ -196,3 +196,74 @@ header {
   font-size: 25px;
   color: #fff;
 }
+
+/* rodape */
+footer {
+  background-image: url(../imagens/fundo-rodape.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 211px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer-container {
+  width: 1440px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#footer-container #footer-menu-links {
+  width: 344px;
+  height: 20px;
+}
+
+#footer-container #footer-menu-links .menu-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+#footer-container #footer-menu-links .menu-links a {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#footer-container #footer-menu-links .menu-links a:hover {
+  background-color: #A68181;
+}
+
+footer p {
+  position: relative;
+  top: 80px;
+  left: -1440px;
+  color: white;
+}
+#footer-contatosocial {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 150px;
+  margin-left: -205px;
+  width: 80px;
+  height: 20px;
+}
+
+#footer-contatosocial a {
+  color: white;
+  transition: 0.8s;
+}
+
+#footer-contatosocial a:hover {
+  transform: translateY(-10px);
+  transition: 0.8s;
+}
