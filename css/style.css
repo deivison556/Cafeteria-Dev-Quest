@@ -38,14 +38,14 @@ header {
   height: 20px;
 }
 
-#header-container #header-menu-links #menu-links {
+#header-container #header-menu-links .menu-links {
   display: flex;
   align-items: center;
   justify-content: space-between;
   list-style: none;
 }
 
-#header-container #header-menu-links #menu-links a {
+#header-container #header-menu-links .menu-links a {
   text-decoration: none;
   font-size: 16px;
   padding: 8px;
@@ -54,7 +54,7 @@ header {
   cursor: pointer;
 }
 
-#header-container #header-menu-links #menu-links a:hover {
+#header-container #header-menu-links .menu-links a:hover {
   background-color: #A68181;
 }
 
